@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=750, user-scalable=yes">
+    <title>leunever</title>
+    <link rel="stylesheet" href="meow.css">
+    <script src="ah.js"></script>
+    <style>
+        /* تبغى تنسخ كودي؟.... حلالك تفضل */
+        #betaWarning {
+            display: block;
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #4b463c;
+            color: black;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+        }
+
+        #betaWarning button {
+            background-color: #000000;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #betaWarning button:hover {
+            background-color: #cc813c;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="betaWarning">
+    <P>Die Website ist noch nicht fertig. Ich werde schlafen, und wenn ich aus meinem Koma erwache, werde ich sie beenden.    </P>
+        <button onclick="closeWarning()">In Ordnung</button>
+    </div>
+
+    <script>
+        
+        function closeWarning() {
+            document.getElementById('betaWarning').style.display = 'none';
+        }
+    </script>
+
+
+
+
+<main>
+      <div class="lower-contents">
+            <div class="sns-contents">
+                <a href="#AD" title="AD">
+                    الأخيرة
+                </a>
+                <a href="#Me" title="about me">
+                   عني
+                </a>
+                <a href="#books" title="Books">
+                    مؤلفاتي
+                </a>
+                <a href="#show" title="shows">
+                    عروض
+                </a>
+                <a href="#game" title="Game">
+                    الألعاب
+                </a>
+                <a href="#other" title="Other">
+                    أخرى
+                </a>
+            </div>
+</main>
+</head>
+<body>
+    <button id="hamburger" class="hamburger-menu" onclick="toggleMobileSidebar()">☰</button>
+
+   
+    <div class="vertical-menu" id="sidebar">
+        <h2><button class="menu-item"><a href="DE.html">الصفحة الرئيسية</a></button></h2>
+        <h2><button class="menu-item"><a href="mao.html">لاميا</a></button></h2>
+        <h2><button class="menu-item"><a href="https://linktr.ee/Leunever">حساباتي</a></button></h2>
+        <h2><button class="menu-item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSf1NoU7rZX4J9K_jeXzNW86WbFOoXOXX29Mj0H3NXhZoyEA9g/viewform?usp=header">للتواصل</a></button></h2>
+        
+        <div class="language-selector">
+            <label for="language">Lang</label>
+            <p></p>
+            <select id="language" onchange="location = this.value;">
+                <option value="">❤︎</option>
+                <option value="index.html">العربية</option>
+                <option value="EN.html">English</option>
+                <option value="JP.html">日本語</option>
+                <option value="ES.html">Español</option>
+                <option value="RU.html">русский</option>
+                <option value="DE.html">Deutsch</option>
+                <option value="CN.html">中文</option>
+            </select>
+            
+        </div>
+    </div>
+  
+    
+    <button class="hamburger-menu" onclick="toggleSidebar()">ִ𖤐</button>
+  
+    
+    <main>    
+        <section id="AD" >
+            <div class="carousel-container">
+                <div class="carousel-slides">
+                  <img class="carousel-slide" src="1.png" alt="Slide 1">
+                  <img class="carousel-slide" src="2.png" alt="Slide 2">
+                  <img class="carousel-slide" src="3.png" alt="Slide 3">
+                </div>
+                <div class="carousel-controls">
+                  <span class="carousel-dot" onclick="setCurrentSlide(0)"></span>
+                  <span class="carousel-dot" onclick="setCurrentSlide(1)"></span>
+                  <span class="carousel-dot" onclick="setCurrentSlide(2)"></span>
+                </div>
+              </div>
+        </section>
+                  
+         
+     
+           
+            <section id="Me">
+            
+                <div class="profile-card">
+                    <div class="profile-banner">
+                        <div class="profile-icon"></div>
+                
+                    </div>
+                    <div class="profile-info">
+                        
+                        <h2> Leunever DevaVochi</h2>
+                        <p>
+                            هه .. تعبت من الانتظار وانا مدرك ان علي الحراك
+                        </p>
+                        <div class="profile-buttons">
+                            
+                            <button class="button">EN</button>
+                            <button class="button">DE</button>
+                            <button class="button">JP</button>
+                            <button class="button">RU</button>
+                            <button class="button">ES</button>
+                            <button class="button">CN</button>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill">Mangaka</div>
+                        <div class="skill">Writer</div>
+                        <div class="skill">Game Dev</div>
+                        <div class="skill">Dev</div>
+                        <div class="skill">Web Dev</div>
+                        <div class="skill">3D Designer</div>
+                        <div class="skill">Tailor</div>
+                        <div class="skill">Fashion Designer
+                        </div>
+                        <div class="skill">قهوجي</div>
+                        <div class="skill">Data Scientist</div>
+                        <div class="skill">Animator</div>
+                        <div class="skill">Voice Actor</div>
+                        <div class="skill">Vulnerability Researcher</div>
+                        <div class="skill">ethical hacker</div>
+                        <div class="skill">Mechatronics Engineer</div>
+                        <div class="skill">AI Researcher</div>
+                        <div class="skill">طبيبك النفسي</div>
+                        <div class="skill">Robotics Engineer</div>
+                        <div class="skill">Toxicologist</div>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="parallax-section">
+                <div class="parallax-content">
+        
+                </div>
+            </section>
+            <section id="books">
+                <h1>روايات/مؤلفات/مذكرات</h1>
+                
+                <div class="book-section">
+                    <p>___________________________________</p>
+                    <h3>ضوءا في ظلام</h3>
+                    <p>___________________________________</p>
+                    <div class="books-gallery">
+                        <div class="book-item">
+                            <img src="hmm.gif" alt="ضوءا في ظلام">
+                            <p>
+                         امرأة غارقة في فراغ الحياة، عاشت في دائرة لا تنتهي من التكرار، حيث لا شيء سوى الرمادي يحاصرها. سئمت من النوم، الوقت، والبشر وجربت الانتحار مرارًا وتكرارًا هروبًا من تلك الحلقات المملة، لكن كل مرة كانت تجد نفسها في نفس المكان، بلا تغيير. حتى ظنت أخيرًا أنها كسرت تلك الدائرة، لكن سرعان ما تبين لها أنها كانت مجرد وهم. في محاولة انتحارها الأخيرة، كان هناك شيء مختلف في تلك الليلة المظلمة. شيء عديم الظل دمر تلك الدائرة، ليجعلها تواجه واقعًا جديدًا كانت تجهل اساسه.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="book-section">
+                    <p>___________________________________</p>
+                    <h3>المندملين</h3>
+                    <p>___________________________________</p>
+                    <div class="books-gallery">
+                        <div class="book-item">
+                            <img src="hmm.gif" alt="المندملين">
+                            <p>
+                                يتناول الكتاب قصة أولئك الذين وقعوا في حفرة الشهوات والضياع، ثم استطاعوا الخروج منها وكأنهم لم يسقطوا فيها أبدًا. يسلط الضوء على تأثير الاكتئاب والضياع والخطايا السبع على الروح البشرية، وكيف يمكن للإنسان أن يشفى منها دون أن تترك أي أثر في حياته. الكتاب يوضح أن العلاج ليس مجرد التخلص من الجروح، بل الوصول إلى الشفاء الكامل الذي يسمح للإنسان بالعيش وكأن تلك الآلام لم تحدث أبدًا.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="book-section">
+                    <p>___________________________________</p>
+                    <h3>صغيرتي انسية</h3>
+                    <p>___________________________________</p>
+                    <div class="books-gallery">
+                        <div class="book-item">
+                            <img src="hmm.gif" alt="صغيرتي انسية">
+                            <p>  (رواية جانبية لشخصية نيشوكو شيوري من ضوء في ظلام)
+                                تدور القصة حول نيشوكو شيوري، طالب جامعي يدرس في القصيم. في أحد الأيام، أثناء طريقه إلى الجامعة، سمع صوت نحيب ات من أحد الحدائق القريبة. يكتشف أن الصوت يعود لصغيرة ضائعة، فيقرر أن يأخذها معه الى شقته الى ان يجد مكانا لها. لكن ما لم يكن يعرفه شيوري، هو أن الصغيرة ليست مجرد طفلة، بل هي اشبه بالدمية أرسلها اسياد السحرة الذين يسعون للانتقام من خصمهم، سيده خصين ابن الأجوف. مع مرور الوقت، يكتشف شيوري أن وجود الصغيرة في حياته ليس صدفة، وعلى رغم معرفته  المسبقة الا انه سوف يضحي بحياته من اجلها.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="book-section">
+                    <p>___________________________________</p>
+                    <h3>روحان على طرفي الهاوية</h3>
+                    <p>___________________________________</p>
+                    <div class="books-gallery">
+                        <div class="book-item">
+                            <img src="hmm.gif" alt="روحان على طرفي الهاوية">
+                            <p>حكاية عن التحديات والحب المستحيل.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="book-section">
+                    <p>___________________________________</p>
+                    <h3>صفية بين أحلامًا صافية</h3>
+                    <p>___________________________________</p>
+                    <div class="books-gallery">
+                        <div class="book-item">
+                            <img src="hmm.gif" alt="صفية بين أحلامًا صافية">
+                            <p>عالم الأحلام المتشابك بين الواقع والخيال.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="book-section">
+                    <p>___________________________________</p>
+                    <h3>روحي الأخرى</h3>
+                    <p>___________________________________</p>
+                    <div class="books-gallery">
+                        <div class="book-item">
+                            <img src="hmm.gif" alt="روحي الأخرى">
+                            <p>رواية عن لقاء الأرواح وازدواجية الشخصية.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="book-section">
+                    <p>___________________________________</p>
+                    <h3>إكلبس: العمى الدموي</h3>
+                    <p>___________________________________</p>
+                    <div class="books-gallery">
+                        <div class="book-item">
+                            <img src="hmm.gif" alt="إكلبس: العمى الدموي">
+                            <p>قصة مثيرة عن الظلام والدماء.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="book-section">
+                    <p>___________________________________</p>
+                    <h3>سيدة الكسوف</h3>
+                    <p>___________________________________</p>
+                    <div class="books-gallery">
+                        <div class="book-item">
+                            <img src="hmm.gif" alt="سيدة الكسوف">
+                            <p>رحلة غامضة مع السيدة التي تتحكم في الخسوف.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="book-section">
+                    <p>___________________________________</p>
+                    <h3>البطل الأعجوبة أحمد يامادا</h3>
+                    <p>___________________________________</p>
+                    <div class="books-gallery">
+                        <div class="book-item">
+                            <img src="hmm.gif" alt="البطل الأعجوبة أحمد يامادا">
+                            <p>ملحمة عن بطل خارق لا يُهزم.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+          
+            <section class="parallax-section">
+                <div class="parallax-content">
+        
+                </div>
+            </section>
+            <section id="show">
+                <h1> سلاسل/افلام رسوم متحركة (قريبا, اصبر علي بس)</h1>
+              
+                <div class="show-section">
+                    <p>___________________________________</p>
+                    <h3>ديجور</h3>
+                    <p>___________________________________</p>
+                <div class="show-gallery">
+                    <div class = "show-item">
+                        <img src="hmm.gif" alt="ديجور">
+                        <p>كتاب عن النور الذي يظهر في أشد الأوقات ظلامًا.</p>
+                </div>
+                </div>
+                <p>___________________________________</p>
+                <h3>سيدة الخسوف</h3>
+                <p>___________________________________</p>
+            <div class="show-gallery">
+                <div class = "show-item">
+                    <img src="hmm.gif" alt="سيدة الخسوف">
+                    <p>كتاب عن النور الذي يظهر في أشد الأوقات ظلامًا.</p>
+            </div>
+            </div>
+            <p>___________________________________</p>
+            <h3>RV9التجربة</h3>
+            <p>___________________________________</p>
+        <div class="show-gallery">
+            <div class = "show-item">
+                <img src="hmm.gif" alt="صفية بين احلاما صافية">
+                <p>كتاب عن النور الذي يظهر في أشد الأوقات ظلامًا.</p>
+        </div>
+        </div>
+        <p>___________________________________</p>
+        <h3>همسات الفجر</h3>
+        <p>___________________________________</p>
+    <div class="show-gallery">
+        <div class = "show-item">
+            <img src="hmm.gif" alt="صفية بين احلاما صافية">
+            <p>كتاب عن النور الذي يظهر في أشد الأوقات ظلامًا.</p>
+    </div>
+    </div>
+
+    <section class="meow-section">
+        <div class="moving-content">
+            <img src="effects.gif" alt="GIF" />
+         <p>⋆౨ৎ˚⟡˖ ⋆𐙚₊˚⊹♡</p>
+         <img src="nnn.jpg" alt="owo" />
+          <p>⋆౨ৎ˚⟡˖ ⋆𐙚₊˚⊹♡</p>
+         
+          <p>˙ᯓ★𓈒ㅤالموت عشيقتيㅤ𓇼 𓈒✮⋆ׂ♡</p>
+            <img src="hmm9.jpg" alt="uwu" />
+        </div>
+      </section>
+      
+      <style>
+        .meow-section {
+          position: relative;
+          height: 200px;
+          overflow: hidden;
+          background-color: #000000; 
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+        }
+      
+        .moving-content {
+          display: flex;
+          align-items: center;
+          white-space: nowrap;
+          animation: scrollContent 10s linear infinite;
+        }
+      
+        .moving-content img {
+          height: 200px; 
+          margin-right: 20px; 
+        }
+      
+        .moving-content p {
+          font-size: 1.5rem;
+          color: #ffffff; 
+          margin: 0;
+        }
+      
+        @keyframes scrollContent {
+          0% {
+            transform: translateX(120%);
+          }
+          100% {
+            transform: translateX(-100%);
+          }
+        }
+      </style>
+      
+      
+      
+            </section>
+            <section id="game">
+                <h1>العاب تحت التطوير</h1>
+               
+                <div class="game-section">
+                    <p>___________________________________</p>
+                    <h3>غامض</h3>
+                    <p>___________________________________</p>
+                    <div class="game-gallery">
+                        <div class="game-item">
+                            <img src="hmm.gif" alt="ضوءا في ظلام">
+                            <p>كتاب عن النور الذي يظهر في أشد الأوقات ظلامًا.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="game-section">
+                    <p>___________________________________</p>
+                    <h3>اللطف المرضي</h3>
+                    <p>___________________________________</p>
+                    <div class="game-gallery">
+                        <div class="game-item">
+                            <img src="hmm.gif" alt="المندملين">
+                            <p>رحلة الشفاء من الجروح العميقة.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="game-section">
+                    <p>___________________________________</p>
+                    <h3>سيدة الخسوف</h3>
+                    <p>___________________________________</p>
+                    <div class="game-gallery">
+                        <div class="game-item">
+                            <img src="hmm.gif" alt="صغيرتي انسية">
+                            <p>قصة عاطفية مليئة بالدفء والبراءة.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="game-section">
+                    <p>___________________________________</p>
+                    <h3>CH3</h3>
+                    <p>___________________________________</p>
+                    <div class="game-gallery">
+                        <div class="game-item">
+                            <img src="hmm.gif" alt="روحان على طرفي الهاوية">
+                            <p>حكاية عن التحديات والحب المستحيل.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="game-section">
+                    <p>___________________________________</p>
+                    <h3>حجر الأحلام</h3>
+                    <p>___________________________________</p>
+                    <div class="game-gallery">
+                        <div class="game-item">
+                            <img src="hmm.gif" alt="صفية بين أحلامًا صافية">
+                            <p>عالم الأحلام المتشابك بين الواقع والخيال.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="game-section">
+                    <p>___________________________________</p>
+                    <h3>ازدواجية</h3>
+                    <p>___________________________________</p>
+                    <div class="game-gallery">
+                        <div class="game-item">
+                            <img src="hmm.gif" alt="روحي الأخرى">
+                            <p>رواية عن لقاء الأرواح وازدواجية الشخصية.</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="game-section">
+                    <p>___________________________________</p>
+                    <h3>مفكرتي</h3>
+                    <p>___________________________________</p>
+                    <div class="game-gallery">
+                        <div class="game-item">
+                            <img src="hmm.gif" alt="البطل الأعجوبة أحمد يامادا">
+                            <p>ملحمة عن بطل خارق لا يُهزم.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-section">
+                    <p>___________________________________</p>
+                    <h3>غرفة الذعر</h3>
+                    <p>___________________________________</p>
+                    <div class="game-gallery">
+                        <div class="game-item">
+                            <img src="hmm.gif" alt="البطل الأعجوبة أحمد يامادا">
+                            <p>ملحمة عن بطل خارق لا يُهزم.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-section">
+                    <p>___________________________________</p>
+                    <h3>اختلال</h3>
+                    <p>___________________________________</p>
+                    <div class="game-gallery">
+                        <div class="game-item">
+                            <img src="hmm.gif" alt="البطل الأعجوبة أحمد يامادا">
+                            <p>ملحمة عن بطل خارق لا يُهزم.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            
+            <section id="other">
+                <h1>اخرى</h1>
+                <p>مشاريع اخرى لا علاقة لها بما سبق</p>
+                <p>...</p>
+
+                <footer>  <p>&copy; 2024 Leunever</p></footer>
+            </section>
+           
+        </div>
+
+    </main>
+
+    
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("open");
+        }
+    </script>
+   
+</body>
+
+</html>
